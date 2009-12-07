@@ -1,0 +1,4 @@
+The solution rejects the complexity of maintaining a grid by only keeping a set of live cell coordinates.
+
+The 'bring a dead cell to life rule' can be accomplished by realizing that only neighbors of live cells could possibly have 3 neighbors.  There is no need to check everywhere.
+
